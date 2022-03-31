@@ -1,0 +1,51 @@
+body {
+    background-color: #F5F6F7;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.barr {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#idd {
+    display: flex;
+    width: 500px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 15px; 
+    justify-content: center;
+    border: solid 1px gray ;
+}
+
+#passwordd {
+    display: flex;
+    width: 500px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 15px; 
+    justify-content: center;
+    border: solid 1px gray ;
+}
+
+#loginn {
+    display: flex;
+    width: 510px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 15px; 
+    background-color: rgb(37, 219, 76);
+    justify-content: center;
+    color: #F5F6F7;
+    border: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
